@@ -1,0 +1,28 @@
+_refreshAll.sh_
+Searches for all production asset generation scripts, and executes them. Note this may be used at a higher-level to refresh multiple gEDA projects at once.
+
+_BillOfMaterials_
+Bill of Materials can be generated in HTML format. Use the description attribute for parts, with the following format:
+X $12.34 MOUSER 123-456789
+
+Components with "X" at the front of their description make the circuit slightly more robust, and may be excluded. However, circuit boards should be manufactured with room for them, should they prove necessary.
+
+LibreOffice Calc (spreadsheet) can take an HTML copy/pasted from a web browser. From there, prices can be added after stripping extraneous description information with the following regex: \ [^0-9].*
+
+_CAD_
+Generates DXF and PNG files for modeling in mechanical CAD assemblies.
+
+_hacdcCNC/Photolithography_
+G-Code and lithography masks for self-fabricating high-quality PCBs, ideally with access to HacDC's CNC mill and supplies.
+
+_oshpark/stencil_
+Upload these to quickly order high-quality PCBs and solder-paste stencils fabricated by a third-party service cost-effectively.
+
+__Copyrights__
+Many scripts are derived from generate-gerbers.sh by Shawn Nock. They and all modifications carry the MIT license copyright.
+
+Other files, including this readme, are CC0 (public-domain) licensed.
+
+http://creativecommons.org/publicdomain/zero/1.0/
+To the extent possible under law, mirage335 has waived all copyright and related or neighboring rights to gedaProduction. This work is published from: United States.
+Also see CC0_license.txt for details.

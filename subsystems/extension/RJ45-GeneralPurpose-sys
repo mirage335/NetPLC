@@ -1,0 +1,4 @@
+elements-dir ../../gedasymbols/footprints
+elements-dir ../../customParts/footprints
+schematics RJ45-GeneralPurpose-sys.sch
+output-name RJ45-GeneralPurpose-sys

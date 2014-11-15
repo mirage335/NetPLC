@@ -1,0 +1,40 @@
+Copyright (C) 2014 mirage335
+See the end of the file for license conditions.
+See license.txt for NetPLC license conditions.
+
+Advanced multi-peripherial low-power Networked Programmable Logic Controller (NetPLC) core platform.
+
+__Usage__
+General Purpose and Precision Analog RJ45 jacks may be used to attach attach additional microcontrollers, cameras, thermistors, pressure sensors, current/voltage transformers, power transistors, relays, etc.
+
+Ethernet jack is provided for full 10BaseT support. WiFi support is also provided via RN171 module. Headers are provided for preassembled pin-compatible Ethernet and WiFi peripherials.
+
+__Design__
+
+Layout is important. Digital circuits create a multitude of full-swing square waves at radio frequency. Stray coupling of these transients into analog circuits can introduce both low and high frequency noise through a variety of mechanisms.
+
+USA companies provide all parts in these schematics.
+
+__Extras__
+Any isolated USB charger can be used as a power source. For example, consider http://www.amazon.com/Samsung-Power-Adapter-Detachable-Micro/dp/B0089VO7FQ/ref=sr_1_6?s=wireless&ie=UTF8&qid=1415386782&sr=1-6&keywords=usb+power .
+
+Typical 1/16" PCBs will not be thick enough to ensure reliable USB port contact. Consider adding a few layers of electrical or duct tape to the back side.
+
+__Safety__
+
+
+__Copyright__
+This file is part of NetPLC.
+
+NetPLC is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+NetPLC is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with NetPLC.  If not, see <http://www.gnu.org/licenses/>.

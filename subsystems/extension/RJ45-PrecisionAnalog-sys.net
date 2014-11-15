@@ -1,0 +1,10 @@
+unnamed_net8	SPRK2-1 P2-1 
+unnamed_net7	SPRK1-1 P1-1 
+unnamed_net6	SPRK2-2 C2-2 R2-1 
+unnamed_net5	SPRK1-2 C1-2 R1-1 
+unnamed_net4	R2-2 RJ45-5 
+unnamed_net3	R1-2 RJ45-4 
+Vcc	SPRK3-2 RJ45-3 
+Vee	C2-1 C1-1 RJ45-8 RJ45-7 RJ45-6 RJ45-2 RJ45-1 Vee-1 Z1-2 C3-1 
+unnamed_net2	Vcc-1 L1-1 
+unnamed_net1	SPRK3-1 Z1-1 C3-2 L1-2 
