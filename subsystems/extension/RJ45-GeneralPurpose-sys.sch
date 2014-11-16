@@ -443,3 +443,10 @@ refdes=R7
 T 61300 58000 5 10 1 1 0 0 1
 value=50
 }
+T 58800 53600 9 10 1 0 0 0 6
+Capacitors are used with termination resistors
+to filter RF, absorb fast transients, and at low
+frequencies, breakdown.
+
+Spark gaps are expected to clamp severe transients
+from ~2kV to nearly 0V.

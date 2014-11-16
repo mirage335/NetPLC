@@ -197,3 +197,10 @@ C 64400 56400 1 270 0 vee-1.sym
 N 63500 56200 63500 56500 4
 N 63500 56900 65500 56900 4
 N 63500 56500 65500 56500 4
+T 63400 53100 9 10 1 0 0 0 6
+Capacitors are used with termination resistors
+to filter RF, absorb fast transients, and at low
+frequencies, breakdown.
+
+Spark gaps are expected to clamp severe transients
+from ~2kV to nearly 0V.

@@ -7,7 +7,11 @@ Advanced multi-peripherial low-power Networked Programmable Logic Controller (Ne
 __Usage__
 General Purpose and Precision Analog RJ45 jacks may be used to attach attach additional microcontrollers, cameras, thermistors, pressure sensors, current/voltage transformers, power transistors, relays, etc.
 
+In harsh environments (eg. mains voltage, flourescent lighting), surge suppression may be maximized by use of genuine S/FTP cable as well as maintaining AVR pins in output LOW state when possible. Watchdog is also recommended.
+
 Ethernet jack is provided for full 10BaseT support. WiFi support is also provided via RN171 module. Headers are provided for preassembled pin-compatible Ethernet and WiFi peripherials.
+
+For maximum network reliability, consider configuring both Ethernet and WiFi for automatic connection, as mutual fallbacks.
 
 __Design__
 
