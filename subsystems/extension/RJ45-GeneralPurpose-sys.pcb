@@ -9,7 +9,7 @@ Grid[500.000000 0.0000 0.0000 1]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 0.10mil 6.00mil 0.10mil 13.00mil 7.00mil]
-Flags("showdrc,nameonpcb,alldirection,clearnew,snappin,locknames")
+Flags("showdrc,nameonpcb,clearnew,snappin,locknames")
 Groups("1,c:2,s:3")
 Styles["Signal,6.00mil,27.00mil,13.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 
@@ -787,19 +787,278 @@ Symbol['~' 12.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "5.00mil")
-Via[165.00mil 689.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X)"]
-Via[80.00mil 154.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X)"]
-Via[620.00mil 219.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X)"]
-Via[235.00mil 340.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
-Via[335.00mil 345.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
-Via[385.00mil 345.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
-Via[485.00mil 345.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
-Via[165.00mil 215.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
-Via[570.00mil 215.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
-Via[7.2280mm 8.7650mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
-Via[1.5130mm 5.9710mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[210.00mil 215.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[260.00mil 215.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[360.00mil 215.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[410.00mil 215.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[510.00mil 215.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[560.00mil 215.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[385.00mil 420.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[130.00mil 690.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[335.00mil 420.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[75.00mil 75.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[275.00mil 420.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[445.00mil 420.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
 
-Element["hidename,onsolder" "SparkGap" "SPRK7" "~2kV" 0.9034mm 6.2250mm 0.0000 0.0000 1 100 "auto"]
+Element["hidename,onsolder" "SparkGap" "SPRK7" "~2kV" 541.00mil 220.00mil 0.0000 0.0000 1 100 "auto"]
+(
+	Attribute("device" "GLOW_LAMP")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
+	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
+	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
+	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
+	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
+	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
+	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
+	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
+	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
+	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
+
+	)
+
+Element["onsolder" "0402" "R6" "1k" 535.00mil 8.0198mm -31.50mil -26.50mil 1 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "onsolder,square"]
+	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "onsolder,square"]
+
+	)
+
+Element["onsolder" "0402" "R1" "1k" 185.00mil 8.0198mm -31.50mil -26.50mil 1 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "onsolder,square"]
+	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "onsolder,square"]
+
+	)
+
+Element["onsolder" "0603" "C1" "4.7u" 100.00mil 16.8806mm 31.50mil 26.50mil 3 100 "auto"]
+(
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-4.92mil 25.59mil 4.92mil 25.59mil 29.52mil 20.00mil 35.52mil "1" "1" "onsolder,square"]
+	Pad[-4.92mil -25.59mil 4.92mil -25.59mil 29.52mil 20.00mil 35.52mil "2" "2" "onsolder,square"]
+
+	)
+
+Element["onsolder" "0603" "L1" "4.7uH" 50.00mil 16.8806mm 31.50mil 21.50mil 3 100 "auto"]
+(
+	Attribute("device" "INDUCTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-4.92mil 25.59mil 4.92mil 25.59mil 29.52mil 20.00mil 35.52mil "1" "1" "onsolder,square"]
+	Pad[-4.92mil -25.59mil 4.92mil -25.59mil 29.52mil 20.00mil 35.52mil "2" "2" "onsolder,square"]
+
+	)
+
+Element["hidename,onsolder" "SparkGap" "SPRK6" "~2kV" 491.00mil 220.00mil 0.0000 0.0000 1 100 "auto"]
+(
+	Attribute("device" "GLOW_LAMP")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
+	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
+	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
+	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
+	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
+	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
+	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
+	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
+	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
+	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
+
+	)
+
+Element["hidename,onsolder" "SparkGap" "SPRK5" "~2kV" 391.00mil 220.00mil 0.0000 0.0000 1 100 "auto"]
+(
+	Attribute("device" "GLOW_LAMP")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
+	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
+	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
+	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
+	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
+	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
+	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
+	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
+	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
+	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
+
+	)
+
+Element["hidename,onsolder" "SparkGap" "SPRK4" "~2kV" 341.00mil 220.00mil 0.0000 0.0000 1 100 "auto"]
+(
+	Attribute("device" "GLOW_LAMP")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
+	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
+	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
+	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
+	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
+	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
+	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
+	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
+	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
+	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
+
+	)
+
+Element["hidename,onsolder" "SparkGap" "SPRK3" "~2kV" 56.00mil 80.00mil 0.0000 0.0000 1 100 "auto"]
+(
+	Attribute("device" "GLOW_LAMP")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
+	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
+	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
+	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
+	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
+	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
+	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
+	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
+	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
+	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
+
+	)
+
+Element["hidename,onsolder" "SparkGap" "SPRK1" "~2kV" 191.00mil 220.00mil 0.0000 0.0000 1 100 "auto"]
+(
+	Attribute("device" "GLOW_LAMP")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
+	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
+	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
+	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
+	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
+	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
+	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
+	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
+	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
+	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
+	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
+	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
+	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
+
+	)
+
+Element["hidename,onsolder" "SparkGap" "SPRK2" "~2kV" 241.00mil 220.00mil 0.0000 0.0000 1 100 "auto"]
 (
 	Attribute("device" "GLOW_LAMP")
 	Attribute("manufacturer" "unknown")
@@ -864,37 +1123,7 @@ Element["" "538-95540-2881" "RJ45" "-" 135.00mil 415.00mil 160.00mil -20.00mil 0
 
 	)
 
-Element["onsolder" "SOD323" "Z3" "3.6V" 620.00mil 182.00mil -50.00mil 153.00mil 0 100 "auto"]
-(
-	Attribute("device" "ZENER_DIODE")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-10.00mil -37.00mil 10.00mil -37.00mil 51.00mil 20.00mil 57.00mil "1" "1" "onsolder,square"]
-	Pad[-10.00mil 37.00mil 10.00mil 37.00mil 51.00mil 20.00mil 57.00mil "2" "2" "onsolder,square"]
-	ElementLine [-35.00mil -83.00mil 35.00mil -83.00mil 20.00mil]
-	ElementLine [35.00mil -83.00mil 45.00mil -58.00mil 10.00mil]
-	ElementLine [45.00mil -58.00mil 45.00mil 73.00mil 10.00mil]
-	ElementLine [-45.00mil 73.00mil 45.00mil 73.00mil 10.00mil]
-	ElementLine [-45.00mil -58.00mil -45.00mil 73.00mil 10.00mil]
-	ElementLine [-45.00mil -58.00mil -35.00mil -83.00mil 10.00mil]
-
-	)
-
-Element["onsolder" "0402" "R6" "1k" 610.74mil 60.00mil 28.50mil 31.50mil 0 100 "auto"]
-(
-	Attribute("device" "RESISTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "onsolder,square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "onsolder,square"]
-
-	)
-
-Element["onsolder" "0402" "R1" "1k" 160.00mil 2.4318mm 31.50mil -28.50mil 3 100 "auto"]
+Element["onsolder" "0402" "R3" "50" 335.00mil 8.0198mm 31.50mil 26.50mil 3 100 "auto"]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -906,25 +1135,7 @@ Element["onsolder" "0402" "R1" "1k" 160.00mil 2.4318mm 31.50mil -28.50mil 3 100 
 
 	)
 
-Element["onsolder" "SOD323" "Z2" "3.6V" 80.00mil 117.00mil -25.00mil 228.00mil 0 100 "auto"]
-(
-	Attribute("device" "ZENER_DIODE")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-10.00mil -37.00mil 10.00mil -37.00mil 51.00mil 20.00mil 57.00mil "1" "1" "onsolder,square"]
-	Pad[-10.00mil 37.00mil 10.00mil 37.00mil 51.00mil 20.00mil 57.00mil "2" "2" "onsolder,square"]
-	ElementLine [-35.00mil -83.00mil 35.00mil -83.00mil 20.00mil]
-	ElementLine [35.00mil -83.00mil 45.00mil -58.00mil 10.00mil]
-	ElementLine [45.00mil -58.00mil 45.00mil 73.00mil 10.00mil]
-	ElementLine [-45.00mil 73.00mil 45.00mil 73.00mil 10.00mil]
-	ElementLine [-45.00mil -58.00mil -45.00mil 73.00mil 10.00mil]
-	ElementLine [-45.00mil -58.00mil -35.00mil -83.00mil 10.00mil]
-
-	)
-
-Element["onsolder" "0402" "C5" "0.1u" 485.00mil 7.7658mm 31.50mil 301.50mil 3 100 "auto"]
+Element["onsolder" "0402" "C3" "0.1u" 335.00mil 9.8354mm 31.50mil 26.50mil 3 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -936,7 +1147,7 @@ Element["onsolder" "0402" "C5" "0.1u" 485.00mil 7.7658mm 31.50mil 301.50mil 3 10
 
 	)
 
-Element["onsolder" "0402" "R5" "50" 485.00mil 5.9878mm 31.50mil 306.50mil 3 100 "auto"]
+Element["onsolder" "0402" "R4" "50" 385.00mil 8.0198mm 31.50mil 31.50mil 3 100 "auto"]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -948,7 +1159,7 @@ Element["onsolder" "0402" "R5" "50" 485.00mil 5.9878mm 31.50mil 306.50mil 3 100 
 
 	)
 
-Element["onsolder" "0402" "C4" "0.1u" 385.00mil 7.8034mm 36.50mil 301.50mil 3 100 "auto"]
+Element["onsolder" "0402" "C4" "0.1u" 385.00mil 9.8354mm 31.50mil 31.50mil 3 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -960,7 +1171,7 @@ Element["onsolder" "0402" "C4" "0.1u" 385.00mil 7.8034mm 36.50mil 301.50mil 3 10
 
 	)
 
-Element["onsolder" "0402" "R4" "50" 385.00mil 5.9878mm 36.50mil 306.50mil 3 100 "auto"]
+Element["onsolder" "0402" "R2" "50" 275.00mil 8.0198mm 31.50mil 31.50mil 3 100 "auto"]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -972,7 +1183,7 @@ Element["onsolder" "0402" "R4" "50" 385.00mil 5.9878mm 36.50mil 306.50mil 3 100 
 
 	)
 
-Element["onsolder" "0402" "C3" "0.1u" 335.00mil 7.8034mm 21.50mil 301.50mil 3 100 "auto"]
+Element["onsolder" "0402" "C2" "0.1u" 275.00mil 9.7978mm 31.50mil 26.50mil 3 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -984,7 +1195,7 @@ Element["onsolder" "0402" "C3" "0.1u" 335.00mil 7.8034mm 21.50mil 301.50mil 3 10
 
 	)
 
-Element["onsolder" "0402" "R3" "50" 335.00mil 5.9878mm 21.50mil 306.50mil 3 100 "auto"]
+Element["onsolder" "0402" "R5" "50" 445.00mil 8.0198mm 31.50mil 26.50mil 3 100 "auto"]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -996,7 +1207,7 @@ Element["onsolder" "0402" "R3" "50" 335.00mil 5.9878mm 21.50mil 306.50mil 3 100 
 
 	)
 
-Element["onsolder" "0402" "C2" "0.1u" 235.00mil 7.7658mm 36.50mil 306.50mil 3 100 "auto"]
+Element["onsolder" "0402" "C5" "0.1u" 445.00mil 9.7978mm 31.50mil 26.50mil 3 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1005,360 +1216,69 @@ Element["onsolder" "0402" "C2" "0.1u" 235.00mil 7.7658mm 36.50mil 306.50mil 3 10
 	Attribute("vendor_part_number" "unknown")
 	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "onsolder,square"]
 	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "onsolder,square"]
-
-	)
-
-Element["onsolder" "0402" "R2" "50" 235.00mil 5.9878mm 36.50mil 306.50mil 3 100 "auto"]
-(
-	Attribute("device" "RESISTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "onsolder,square"]
-	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "onsolder,square"]
-
-	)
-
-Element["onsolder" "SOD323" "Z1" "3.6V" 165.00mil 652.00mil 225.00mil 43.00mil 3 100 "auto"]
-(
-	Attribute("device" "ZENER_DIODE")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-10.00mil -37.00mil 10.00mil -37.00mil 51.00mil 20.00mil 57.00mil "1" "1" "onsolder,square"]
-	Pad[-10.00mil 37.00mil 10.00mil 37.00mil 51.00mil 20.00mil 57.00mil "2" "2" "onsolder,square"]
-	ElementLine [-35.00mil -83.00mil 35.00mil -83.00mil 20.00mil]
-	ElementLine [35.00mil -83.00mil 45.00mil -58.00mil 10.00mil]
-	ElementLine [45.00mil -58.00mil 45.00mil 73.00mil 10.00mil]
-	ElementLine [-45.00mil 73.00mil 45.00mil 73.00mil 10.00mil]
-	ElementLine [-45.00mil -58.00mil -45.00mil 73.00mil 10.00mil]
-	ElementLine [-45.00mil -58.00mil -35.00mil -83.00mil 10.00mil]
-
-	)
-
-Element["onsolder" "0603" "C1" "4.7u" 100.00mil 16.8806mm 236.50mil 31.50mil 3 100 "auto"]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-4.92mil 25.59mil 4.92mil 25.59mil 29.52mil 20.00mil 35.52mil "1" "1" "onsolder,square"]
-	Pad[-4.92mil -25.59mil 4.92mil -25.59mil 29.52mil 20.00mil 35.52mil "2" "2" "onsolder,square"]
-
-	)
-
-Element["onsolder" "0603" "L1" "4.7uH" 50.00mil 16.8806mm 226.50mil 31.50mil 3 100 "auto"]
-(
-	Attribute("device" "INDUCTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-4.92mil 25.59mil 4.92mil 25.59mil 29.52mil 20.00mil 35.52mil "1" "1" "onsolder,square"]
-	Pad[-4.92mil -25.59mil 4.92mil -25.59mil 29.52mil 20.00mil 35.52mil "2" "2" "onsolder,square"]
-
-	)
-
-Element["hidename,onsolder" "SparkGap" "SPRK6" "~2kV" 546.00mil 235.00mil 0.0000 0.0000 1 100 "auto"]
-(
-	Attribute("device" "GLOW_LAMP")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
-	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
-	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
-	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
-	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
-	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
-	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
-	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
-	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
-	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
-
-	)
-
-Element["hidename,onsolder" "SparkGap" "SPRK5" "~2kV" 441.00mil 380.00mil 0.0000 0.0000 1 100 "auto"]
-(
-	Attribute("device" "GLOW_LAMP")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
-	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
-	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
-	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
-	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
-	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
-	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
-	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
-	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
-	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
-
-	)
-
-Element["hidename,onsolder" "SparkGap" "SPRK4" "~2kV" 9.2854mm 9.6540mm 0.0000 0.0000 1 100 "auto"]
-(
-	Attribute("device" "GLOW_LAMP")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
-	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
-	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
-	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
-	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
-	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
-	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
-	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
-	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
-	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
-
-	)
-
-Element["hidename,onsolder" "SparkGap" "SPRK3" "~2kV" 8.0662mm 9.5397mm 0.0000 0.0000 1 100 "auto"]
-(
-	Attribute("device" "GLOW_LAMP")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
-	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
-	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
-	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
-	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
-	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
-	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
-	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
-	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
-	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
-
-	)
-
-Element["hidename,onsolder" "SparkGap" "SPRK1" "~2kV" 141.00mil 225.00mil 0.0000 0.0000 1 100 "auto"]
-(
-	Attribute("device" "GLOW_LAMP")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
-	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
-	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
-	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
-	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
-	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
-	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
-	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
-	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
-	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
-
-	)
-
-Element["hidename,onsolder" "SparkGap" "SPRK2" "~2kV" 6.7454mm 9.5270mm 0.0000 0.0000 1 100 "auto"]
-(
-	Attribute("device" "GLOW_LAMP")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[14.00mil 9.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 46.00mil 14.00mil 39.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[7.00mil 2.00mil 14.00mil 9.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[7.00mil -13.00mil 7.00mil 2.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square"]
-	Pad[7.00mil 46.00mil 7.00mil 51.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,square,edge2"]
-	Pad[8.00mil 18.00mil 14.00mil 12.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder"]
-	Pad[8.00mil 18.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 36.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[8.00mil 30.00mil 14.00mil 24.00mil 6.00mil 14.00mil 20.00mil "2" "2" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -12.00mil 40.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 40.00mil -6.00mil 46.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 9.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-6.00mil -13.00mil -6.00mil 3.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square"]
-	Pad[-6.00mil 46.00mil -6.00mil 51.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,square,edge2"]
-	Pad[-12.00mil 11.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 9.00mil -12.00mil 11.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder"]
-	Pad[-12.00mil 25.00mil -5.00mil 18.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 23.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	Pad[-12.00mil 37.00mil -5.00mil 30.00mil 6.00mil 14.00mil 20.00mil "1" "1" "onsolder,edge2"]
-	ElementLine [21.00mil 41.00mil 13.00mil 49.00mil 6.00mil]
-	ElementLine [21.00mil 6.00mil 21.00mil 41.00mil 6.00mil]
-	ElementLine [14.00mil -1.00mil 21.00mil 6.00mil 6.00mil]
-	ElementLine [-19.00mil 7.00mil -12.00mil 0.0000 6.00mil]
-	ElementLine [-19.00mil 7.00mil -19.00mil 42.00mil 6.00mil]
-	ElementLine [-12.00mil 49.00mil -19.00mil 42.00mil 6.00mil]
 
 	)
 Layer(1 "top")
 (
 	Polygon("clearpoly")
 	(
-		[5.00mil 729.00mil] [5.00mil 4.00mil] [715.00mil 4.00mil] [715.00mil 729.00mil] 
+		[7.50mil 0.1406mm] [18.0905mm 0.1406mm] [18.0905mm 18.5406mm] [7.50mil 18.5406mm] 
 	)
 )
 Layer(2 "bottom")
 (
-	Line[165.00mil 570.00mil 165.00mil 615.00mil 6.00mil 20.00mil "clearline"]
-	Line[50.00mil 639.00mil 141.00mil 639.00mil 6.00mil 20.00mil "clearline"]
-	Line[141.00mil 639.00mil 165.00mil 615.00mil 6.00mil 20.00mil "clearline"]
-	Line[100.00mil 17.5306mm 4.1610mm 17.5306mm 25.00mil 20.00mil "clearline"]
-	Line[4.1610mm 17.5306mm 165.00mil 689.00mil 25.00mil 20.00mil "clearline"]
-	Line[80.00mil 80.00mil 135.00mil 135.00mil 6.00mil 20.00mil "clearline"]
-	Line[185.00mil 3.4666mm 185.00mil 165.00mil 6.00mil 20.00mil "clearline"]
-	Line[185.00mil 3.4666mm 160.00mil 2.8316mm 6.00mil 20.00mil "clearline"]
-	Line[80.00mil 80.00mil 160.00mil 80.00mil 6.00mil 20.00mil "clearline"]
-	Line[235.00mil 65.00mil 235.00mil 220.00mil 6.00mil 20.00mil "clearline"]
-	Line[235.00mil 6.3876mm 235.00mil 290.00mil 6.00mil 20.00mil "clearline"]
-	Line[335.00mil 65.00mil 335.00mil 220.00mil 6.00mil 20.00mil "clearline"]
-	Line[385.00mil 165.00mil 385.00mil 220.00mil 6.00mil 20.00mil "clearline"]
-	Line[385.00mil 6.3876mm 385.00mil 7.4036mm 6.00mil 20.00mil "clearline"]
-	Line[485.00mil 165.00mil 485.00mil 220.00mil 6.00mil 20.00mil "clearline"]
-	Line[485.00mil 6.3876mm 485.00mil 290.00mil 6.00mil 20.00mil "clearline"]
-	Line[540.00mil 60.00mil 595.00mil 60.00mil 6.00mil 20.00mil "clearline"]
-	Line[540.00mil 60.00mil 535.00mil 65.00mil 6.00mil 20.00mil "clearline"]
-	Line[626.48mil 60.00mil 626.48mil 3.5184mm 6.00mil 20.00mil "clearline"]
-	Line[626.48mil 3.5184mm 620.00mil 145.00mil 6.00mil 20.00mil "clearline"]
-	Line[485.00mil 8.1656mm 485.00mil 345.00mil 6.00mil 20.00mil "clearline"]
-	Line[385.00mil 8.2032mm 385.00mil 345.00mil 6.00mil 20.00mil "clearline"]
-	Line[335.00mil 8.2032mm 335.00mil 345.00mil 6.00mil 20.00mil "clearline"]
-	Line[235.00mil 8.1656mm 235.00mil 340.00mil 6.00mil 20.00mil "clearline"]
-	Line[335.00mil 6.3876mm 335.00mil 7.4036mm 6.00mil 20.00mil "clearline"]
-	Line[575.00mil 145.00mil 620.00mil 145.00mil 6.00mil 20.00mil "clearline"]
-	Line[135.00mil 135.00mil 135.00mil 220.00mil 6.00mil 20.00mil "clearline"]
-	Line[152.50mil 215.00mil 165.00mil 215.00mil 6.00mil 20.00mil "clearline"]
-	Line[152.50mil 215.00mil 148.00mil 219.50mil 6.00mil 20.00mil "clearline"]
-	Line[230.00mil 385.00mil 230.00mil 530.00mil 6.00mil 20.00mil "clearline"]
-	Line[135.00mil 273.50mil 135.00mil 290.00mil 6.00mil 20.00mil "clearline"]
-	Line[230.00mil 385.00mil 135.00mil 290.00mil 6.00mil 20.00mil "clearline"]
-	Line[567.50mil 215.00mil 570.00mil 215.00mil 6.00mil 20.00mil "clearline"]
-	Line[567.50mil 215.00mil 553.00mil 229.50mil 6.00mil 20.00mil "clearline"]
-	Line[540.00mil 180.00mil 540.00mil 230.00mil 6.00mil 20.00mil "clearline"]
-	Line[540.00mil 180.00mil 575.00mil 145.00mil 6.00mil 20.00mil "clearline"]
-	Line[540.00mil 283.50mil 540.00mil 335.00mil 6.00mil 20.00mil "clearline"]
-	Line[460.00mil 290.00mil 485.00mil 290.00mil 6.00mil 20.00mil "clearline"]
-	Line[435.00mil 315.00mil 460.00mil 290.00mil 6.00mil 20.00mil "clearline"]
-	Line[448.00mil 357.00mil 448.00mil 374.50mil 6.00mil 20.00mil "clearline"]
-	Line[448.00mil 357.00mil 460.00mil 345.00mil 6.00mil 20.00mil "clearline"]
-	Line[460.00mil 345.00mil 485.00mil 345.00mil 6.00mil 20.00mil "clearline"]
-	Line[435.00mil 315.00mil 435.00mil 375.00mil 6.00mil 20.00mil "clearline"]
-	Line[9.4784mm 7.4036mm 385.00mil 7.4036mm 6.00mil 20.00mil "clearline"]
-	Line[9.4784mm 7.4036mm 9.1330mm 7.7490mm 6.00mil 20.00mil "clearline"]
-	Line[9.1330mm 7.7490mm 9.1330mm 9.5270mm 6.00mil 20.00mil "clearline"]
-	Line[9.4632mm 9.0788mm 9.4632mm 9.5143mm 6.00mil 20.00mil "clearline"]
-	Line[9.4632mm 9.0788mm 385.00mil 345.00mil 6.00mil 20.00mil "clearline"]
-	Line[8.3354mm 7.4036mm 335.00mil 7.4036mm 6.00mil 20.00mil "clearline"]
-	Line[7.9138mm 7.8252mm 7.9138mm 9.4127mm 6.00mil 20.00mil "clearline"]
-	Line[8.3354mm 7.4036mm 7.9138mm 7.8252mm 6.00mil 20.00mil "clearline"]
-	Line[8.2440mm 9.0280mm 8.2440mm 9.4000mm 6.00mil 20.00mil "clearline"]
-	Line[8.2440mm 9.0280mm 335.00mil 345.00mil 6.00mil 20.00mil "clearline"]
-	Line[6.9232mm 9.0698mm 6.9232mm 9.3873mm 6.00mil 20.00mil "clearline"]
-	Line[6.9232mm 9.0698mm 7.2280mm 8.7650mm 6.00mil 20.00mil "clearline"]
-	Line[6.5930mm 7.4950mm 6.5930mm 9.4000mm 6.00mil 20.00mil "clearline"]
-	Line[6.5930mm 7.4950mm 6.4660mm 7.3680mm 6.00mil 20.00mil "clearline"]
-	Line[235.00mil 7.3680mm 6.4660mm 7.3680mm 6.00mil 20.00mil "clearline"]
-	Line[6.5930mm 10.7589mm 6.5930mm 13.4640mm 6.00mil 20.00mil "clearline"]
-	Line[7.8630mm 10.8224mm 7.8630mm 13.4640mm 6.00mil 20.00mil "clearline"]
-	Line[7.8630mm 10.8224mm 7.9138mm 10.7716mm 6.00mil 20.00mil "clearline"]
-	Line[9.1330mm 10.8859mm 9.1330mm 13.4640mm 6.00mil 20.00mil "clearline"]
-	Line[11.0380mm 10.8949mm 11.0380mm 13.4640mm 6.00mil 20.00mil "clearline"]
-	Line[11.0380mm 10.8949mm 435.00mil 428.50mil 6.00mil 20.00mil "clearline"]
-	Line[12.6890mm 9.5360mm 12.6890mm 13.4640mm 6.00mil 20.00mil "clearline"]
-	Line[540.00mil 335.00mil 12.6890mm 9.5360mm 6.00mil 20.00mil "clearline"]
-	Line[285.00mil 1.4100mm 285.00mil 165.00mil 6.00mil 20.00mil "clearline"]
-	Line[285.00mil 1.4100mm 6.4660mm 0.6370mm 6.00mil 20.00mil "clearline"]
-	Line[1.1320mm 0.6370mm 6.4660mm 0.6370mm 6.00mil 20.00mil "clearline"]
-	Line[1.1320mm 0.6370mm 0.6240mm 1.1450mm 6.00mil 20.00mil "clearline"]
-	Line[0.6240mm 1.1450mm 0.6240mm 5.9710mm 6.00mil 20.00mil "clearline"]
-	Line[0.6240mm 5.9710mm 0.7510mm 6.0980mm 6.00mil 20.00mil "clearline"]
-	Line[0.7510mm 7.4569mm 0.7510mm 11.0380mm 6.00mil 20.00mil "clearline"]
-	Line[0.7510mm 11.0380mm 165.00mil 570.00mil 6.00mil 20.00mil "clearline"]
-	Line[1.1955mm 5.9710mm 1.5130mm 5.9710mm 6.00mil 20.00mil "clearline"]
-	Line[1.1955mm 5.9710mm 1.0812mm 6.0853mm 6.00mil 20.00mil "clearline"]
+	Line[50.00mil 16.2306mm 100.00mil 16.2306mm 6.00mil 20.00mil "clearline"]
+	Line[100.00mil 16.2306mm 100.00mil 505.00mil 6.00mil 20.00mil "clearline"]
+	Line[100.00mil 505.00mil 50.00mil 455.00mil 6.00mil 20.00mil "clearline"]
+	Line[50.00mil 60.00mil 85.00mil 25.00mil 6.00mil 20.00mil "clearline"]
+	Line[285.00mil 55.00mil 255.00mil 25.00mil 6.00mil 20.00mil "clearline"]
+	Line[255.00mil 25.00mil 85.00mil 25.00mil 6.00mil 20.00mil "clearline"]
+	Line[235.00mil 215.00mil 235.00mil 65.00mil 6.00mil 20.00mil "clearline"]
+	Line[185.00mil 215.00mil 185.00mil 165.00mil 6.00mil 20.00mil "clearline"]
+	Line[335.00mil 215.00mil 335.00mil 65.00mil 6.00mil 20.00mil "clearline"]
+	Line[385.00mil 215.00mil 385.00mil 165.00mil 6.00mil 20.00mil "clearline"]
+	Line[485.00mil 165.00mil 485.00mil 215.00mil 6.00mil 20.00mil "clearline"]
+	Line[535.00mil 215.00mil 535.00mil 65.00mil 6.00mil 20.00mil "clearline"]
+	Line[335.00mil 300.00mil 335.00mil 268.50mil 6.00mil 20.00mil "clearline"]
+	Line[385.00mil 268.50mil 385.00mil 300.00mil 6.00mil 20.00mil "clearline"]
+	Line[335.00mil 331.48mil 335.00mil 9.4356mm 6.00mil 20.00mil "clearline"]
+	Line[385.00mil 331.48mil 385.00mil 9.4356mm 6.00mil 20.00mil "clearline"]
+	Line[198.00mil 214.50mil 209.50mil 214.50mil 6.00mil 20.00mil "clearline"]
+	Line[209.50mil 214.50mil 210.00mil 215.00mil 6.00mil 20.00mil "clearline"]
+	Line[248.00mil 214.50mil 259.50mil 214.50mil 6.00mil 20.00mil "clearline"]
+	Line[259.50mil 214.50mil 260.00mil 215.00mil 6.00mil 20.00mil "clearline"]
+	Line[348.00mil 214.50mil 359.50mil 214.50mil 6.00mil 20.00mil "clearline"]
+	Line[359.50mil 214.50mil 360.00mil 215.00mil 6.00mil 20.00mil "clearline"]
+	Line[398.00mil 214.50mil 409.50mil 214.50mil 6.00mil 20.00mil "clearline"]
+	Line[409.50mil 214.50mil 410.00mil 215.00mil 6.00mil 20.00mil "clearline"]
+	Line[498.00mil 214.50mil 509.50mil 214.50mil 6.00mil 20.00mil "clearline"]
+	Line[509.50mil 214.50mil 510.00mil 215.00mil 6.00mil 20.00mil "clearline"]
+	Line[548.00mil 214.50mil 559.50mil 214.50mil 6.00mil 20.00mil "clearline"]
+	Line[559.50mil 214.50mil 560.00mil 215.00mil 6.00mil 20.00mil "clearline"]
+	Line[130.00mil 690.00mil 2.5446mm 690.00mil 6.00mil 20.00mil "clearline"]
+	Line[2.5446mm 690.00mil 100.00mil 17.5306mm 6.00mil 20.00mil "clearline"]
+	Line[535.00mil 268.50mil 535.00mil 300.00mil 6.00mil 20.00mil "clearline"]
+	Line[185.00mil 300.00mil 185.00mil 268.50mil 6.00mil 20.00mil "clearline"]
+	Line[335.00mil 420.00mil 335.00mil 402.96mil 6.00mil 20.00mil "clearline"]
+	Line[385.00mil 420.00mil 385.00mil 402.96mil 6.00mil 20.00mil "clearline"]
+	Line[285.00mil 55.00mil 285.00mil 165.00mil 6.00mil 20.00mil "clearline"]
+	Line[50.00mil 75.00mil 50.00mil 60.00mil 6.00mil 20.00mil "clearline"]
+	Line[50.00mil 128.50mil 50.00mil 455.00mil 6.00mil 20.00mil "clearline"]
+	Line[63.00mil 74.50mil 74.50mil 74.50mil 6.00mil 20.00mil "clearline"]
+	Line[74.50mil 74.50mil 75.00mil 75.00mil 6.00mil 20.00mil "clearline"]
+	Line[235.00mil 268.50mil 235.00mil 280.00mil 6.00mil 20.00mil "clearline"]
+	Line[235.00mil 280.00mil 255.00mil 300.00mil 6.00mil 20.00mil "clearline"]
+	Line[255.00mil 300.00mil 275.00mil 300.00mil 6.00mil 20.00mil "clearline"]
+	Line[485.00mil 268.50mil 485.00mil 280.00mil 6.00mil 20.00mil "clearline"]
+	Line[445.00mil 300.00mil 465.00mil 300.00mil 6.00mil 20.00mil "clearline"]
+	Line[465.00mil 300.00mil 485.00mil 280.00mil 6.00mil 20.00mil "clearline"]
+	Line[275.00mil 370.00mil 275.00mil 331.48mil 6.00mil 20.00mil "clearline"]
+	Line[445.00mil 370.00mil 445.00mil 331.48mil 6.00mil 20.00mil "clearline"]
+	Line[275.00mil 420.00mil 275.00mil 401.48mil 6.00mil 20.00mil "clearline"]
+	Line[445.00mil 420.00mil 445.00mil 401.48mil 6.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
-		[5.00mil 729.00mil] [5.00mil 4.00mil] [715.00mil 4.00mil] [715.00mil 729.00mil] 
+		[7.50mil 0.1406mm] [18.0905mm 0.1406mm] [18.0905mm 18.5406mm] [7.50mil 18.5406mm] 
 	)
 )
 Layer(3 "outline")
@@ -1386,24 +1306,24 @@ Layer(5 "silk")
 	Line[635.00mil 700.00mil 645.00mil 700.00mil 6.00mil 20.00mil "clearline"]
 	Line[640.00mil 695.00mil 640.00mil 705.00mil 6.00mil 20.00mil "clearline"]
 	Line[45.00mil 695.00mil 150.00mil 590.00mil 6.00mil 20.00mil "clearline"]
-	Arc[95.00mil 640.00mil 75.00mil 75.00mil 6.00mil 20.00mil 180 90 "clearline"]
 	Arc[95.00mil 640.00mil 75.00mil 75.00mil 6.00mil 20.00mil -90 90 "clearline"]
 	Arc[95.00mil 640.00mil 75.00mil 75.00mil 6.00mil 20.00mil 0 90 "clearline"]
 	Arc[95.00mil 640.00mil 75.00mil 75.00mil 6.00mil 20.00mil 90 90 "clearline"]
+	Arc[95.00mil 640.00mil 75.00mil 75.00mil 6.00mil 20.00mil 180 90 "clearline"]
 	Text[1.1605mm 1.9406mm 0 75 "T568A" "clearline"]
-	Text[12.8605mm 5.2406mm 3 75 "7/WBr" "clearline"]
 	Text[557.50mil 2.7406mm 3 75 "8/Br" "clearline"]
 	Text[11.5605mm 2.7406mm 3 75 "6/O" "clearline"]
-	Text[411.83mil 5.2406mm 3 75 "5/WBl" "clearline"]
 	Text[9.0605mm 2.6406mm 3 75 "4/Bl" "clearline"]
-	Text[7.8605mm 5.2406mm 3 75 "3/WO" "clearline"]
 	Text[6.5605mm 2.6406mm 3 75 "2/G" "clearline"]
-	Text[5.2605mm 5.3406mm 3 75 "1/WG" "clearline"]
 	Text[30.00mil 600.00mil 0 75 "Ether-" "clearline"]
 	Text[90.00mil 640.00mil 0 75 "net" "clearline"]
 	Text[400.00mil 665.00mil 0 75 "DANGER!" "clearline"]
 	Text[200.00mil 560.00mil 0 75 "Damages ethernet" "clearline"]
 	Text[200.00mil 595.00mil 0 75 "network hardware." "clearline"]
+	Text[5.2605mm 5.3406mm 3 75 "1/WG" "clearline"]
+	Text[7.8605mm 5.2406mm 3 75 "3/WO" "clearline"]
+	Text[411.83mil 5.2406mm 3 75 "5/WBl" "clearline"]
+	Text[12.8605mm 5.2406mm 3 75 "7/WBr" "clearline"]
 )
 NetList()
 (
@@ -1415,82 +1335,79 @@ NetList()
 	Net("unnamed_net2" "(unknown)")
 	(
 		Connect("R1-2")
-		Connect("SPRK1-1")
 		Connect("TX-1")
-		Connect("Z2-1")
 	)
 	Net("unnamed_net3" "(unknown)")
 	(
 		Connect("R1-1")
 		Connect("RJ45-1")
+		Connect("SPRK1-1")
 	)
 	Net("unnamed_net4" "(unknown)")
 	(
 		Connect("R3-2")
 		Connect("RJ45-4")
+		Connect("SPRK4-1")
 	)
 	Net("unnamed_net5" "(unknown)")
 	(
 		Connect("A1-1")
 		Connect("C3-2")
 		Connect("R3-1")
-		Connect("SPRK3-1")
 	)
 	Net("unnamed_net6" "(unknown)")
 	(
 		Connect("R4-2")
 		Connect("RJ45-5")
+		Connect("SPRK5-1")
 	)
 	Net("unnamed_net7" "(unknown)")
 	(
 		Connect("A2-1")
 		Connect("C4-2")
 		Connect("R4-1")
-		Connect("SPRK4-1")
 	)
 	Net("unnamed_net8" "(unknown)")
 	(
 		Connect("R6-2")
 		Connect("RX-1")
-		Connect("SPRK6-1")
-		Connect("Z3-1")
 	)
 	Net("unnamed_net9" "(unknown)")
 	(
 		Connect("R6-1")
 		Connect("RJ45-8")
+		Connect("SPRK7-1")
 	)
 	Net("unnamed_net10" "(unknown)")
 	(
 		Connect("R2-2")
 		Connect("RJ45-2")
+		Connect("SPRK2-1")
 	)
 	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("A3-1")
 		Connect("C2-2")
 		Connect("R2-1")
-		Connect("SPRK2-1")
 	)
 	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("R5-2")
 		Connect("RJ45-7")
+		Connect("SPRK6-1")
 	)
 	Net("unnamed_net13" "(unknown)")
 	(
 		Connect("A4-1")
 		Connect("C5-2")
 		Connect("R5-1")
-		Connect("SPRK5-1")
 	)
 	Net("Vcc" "(unknown)")
 	(
 		Connect("C1-2")
 		Connect("L1-2")
 		Connect("RJ45-3")
-		Connect("SPRK7-1")
-		Connect("Z1-1")
+		Connect("SPRK3-1")
 	)
 	Net("Vee" "(unknown)")
 	(
@@ -1509,8 +1426,5 @@ NetList()
 		Connect("SPRK6-2")
 		Connect("SPRK7-2")
 		Connect("Vee-1")
-		Connect("Z1-2")
-		Connect("Z2-2")
-		Connect("Z3-2")
 	)
 )
