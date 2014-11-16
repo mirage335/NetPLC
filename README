@@ -5,7 +5,9 @@ See license.txt for NetPLC license conditions.
 Advanced multi-peripherial low-power Networked Programmable Logic Controller (NetPLC) core platform.
 
 __Usage__
-General Purpose and Precision Analog RJ45 jacks may be used to attach attach additional microcontrollers, cameras, thermistors, pressure sensors, current/voltage transformers, power transistors, relays, etc.
+NetPLC is intended as a robust control system with networking support. Expected use cases include door locks, occupancy sensors, temperature sensors, efficiency smart meters, thermostats, wind farms, 3D printers, etc.
+
+'General Purpose' and 'Precision Analog' RJ45 jacks may be used to attach attach additional microcontrollers, cameras, thermistors, pressure sensors, current/voltage transformers, power transistors, relays, etc.
 
 In harsh environments (eg. mains voltage, flourescent lighting), surge suppression may be maximized by use of genuine S/FTP cable as well as maintaining AVR pins in output LOW state when possible. Watchdog is also recommended.
 
@@ -14,6 +16,7 @@ Ethernet jack is provided for full 10BaseT support. WiFi support is also provide
 For maximum network reliability, consider configuring both Ethernet and WiFi for automatic connection, as mutual fallbacks.
 
 __Design__
+Efforts have been made to provide surge suppression, especially for the RJ45 peripherials. However, sustained faults below the spark-gap voltage threshold and above the AVR protection diode current limits will cause damage. As noted above, extra precautions should be taken against such mid-level interference in harsh environments.
 
 Layout is important. Digital circuits create a multitude of full-swing square waves at radio frequency. Stray coupling of these transients into analog circuits can introduce both low and high frequency noise through a variety of mechanisms.
 
@@ -25,7 +28,9 @@ Any isolated USB charger can be used as a power source. For example, consider ht
 Typical 1/16" PCBs will not be thick enough to ensure reliable USB port contact. Consider adding a few layers of electrical or duct tape to the back side.
 
 __Safety__
+Typical TCP/IP and wireless networks are vastly more complex, less reliable, more difficult to surge-protect, and less secure than the onboard MCU. Firmware should be written not to depend on network connectivity for control loops where reliability counts. Unrestricted public internet services (eg. HTTP) should be directed through a full server, supporting load and security requirements if possible.
 
+While the MCU alone is unlikely to fail within decades, it should not be relied upon for safety-of-life control systems. Generally, a microcontroller is less dependable than redundant, specialized, discrete logic. Indirect use of NetPLC (eg. monitoring outcomes, contributing information, etc) in such systems must be carefully considered by a competent engineer.
 
 __Copyright__
 This file is part of NetPLC.

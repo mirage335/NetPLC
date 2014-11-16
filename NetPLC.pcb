@@ -3,7 +3,7 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
-PCB["" 4500.00mil 4500.00mil]
+PCB["" 3000.00mil 2500.00mil]
 
 Grid[500.000000 0.0000 0.0000 1]
 PolyArea[200000000.000000]
@@ -3871,7 +3871,13 @@ Layer(3 "outline")
 	Line[5.00mil 1060.00mil 5.00mil 1545.00mil 6.00mil 20.00mil "clearline"]
 	Line[5.00mil 1060.00mil 545.00mil 1060.00mil 6.00mil 20.00mil "clearline"]
 	Line[545.00mil 1060.00mil 630.00mil 975.00mil 6.00mil 20.00mil "clearline"]
-	Line[630.00mil 975.00mil 630.00mil 735.00mil 6.00mil 20.00mil "clearline"]
+	Line[630.00mil 975.00mil 630.00mil 0.0000 6.00mil 20.00mil "clearline"]
+	Line[630.00mil 0.0000 2885.00mil 0.0000 6.00mil 20.00mil "clearline"]
+	Line[2885.00mil 0.0000 2885.00mil 2430.00mil 6.00mil 20.00mil "clearline"]
+	Line[2885.00mil 2430.00mil 630.00mil 2430.00mil 6.00mil 20.00mil "clearline"]
+	Line[630.00mil 2430.00mil 630.00mil 1625.00mil 6.00mil 20.00mil "clearline"]
+	Line[5.00mil 1545.00mil 550.00mil 1545.00mil 6.00mil 20.00mil "clearline"]
+	Line[550.00mil 1545.00mil 630.00mil 1625.00mil 6.00mil 20.00mil "clearline"]
 )
 Layer(4 "silk")
 (
