@@ -634,3 +634,93 @@ description=$0.06 MOUSER 77-VJ0805V475ZXQTBC
 T 53100 42600 5 10 0 0 0 0 1
 footprint=0805
 }
+C 66000 49600 1 0 1 input-2.sym
+{
+T 65400 50300 5 10 0 0 0 6 1
+device=none
+T 66000 49800 5 10 1 0 0 6 1
+net=RTS:1
+T 65500 49700 5 10 1 1 0 1 1
+value=INPUT
+}
+C 64600 44000 1 0 0 output-2.sym
+{
+T 64800 44700 5 10 0 0 0 0 1
+device=none
+T 65500 44200 5 10 1 0 0 0 1
+net=CTS:1
+T 65500 44100 5 10 1 1 0 1 1
+value=OUTPUT
+}
+C 66000 42800 1 0 1 input-2.sym
+{
+T 65400 43500 5 10 0 0 0 6 1
+device=none
+T 66000 43000 5 10 1 0 0 6 1
+net=RX:1
+T 65500 42900 5 10 1 1 0 1 1
+value=INPUT
+}
+C 70900 45100 1 0 1 output-2.sym
+{
+T 70700 45800 5 10 0 0 0 6 1
+device=none
+T 70000 45300 5 10 1 0 0 6 1
+net=RTS:1
+T 70000 45200 5 10 1 1 0 7 1
+value=OUTPUT
+}
+C 64600 43200 1 0 0 output-2.sym
+{
+T 64800 43900 5 10 0 0 0 0 1
+device=none
+T 65500 43400 5 10 1 0 0 0 1
+net=TX:1
+T 65500 43300 5 10 1 1 0 1 1
+value=OUTPUT
+}
+C 69500 44800 1 0 0 input-2.sym
+{
+T 70100 45500 5 10 0 0 0 0 1
+device=none
+T 69500 45000 5 10 1 0 0 0 1
+net=TX:1
+T 70000 44900 5 10 1 1 0 7 1
+value=INPUT
+}
+C 70900 44500 1 0 1 output-2.sym
+{
+T 70700 45200 5 10 0 0 0 6 1
+device=none
+T 70000 44700 5 10 1 0 0 6 1
+net=RX:1
+T 70000 44600 5 10 1 1 0 7 1
+value=OUTPUT
+}
+C 69500 45400 1 0 0 input-2.sym
+{
+T 70100 46100 5 10 0 0 0 0 1
+device=none
+T 69500 45600 5 10 1 0 0 0 1
+net=CTS:1
+T 70000 45500 5 10 1 1 0 7 1
+value=INPUT
+}
+C 65100 42300 1 0 0 input-2.sym
+{
+T 65700 43000 5 10 0 0 0 0 1
+device=none
+T 65100 42500 5 10 1 0 0 0 1
+net=TX:1
+T 65600 42400 5 10 1 1 0 7 1
+value=INPUT
+}
+C 66500 44700 1 0 1 output-2.sym
+{
+T 66300 45400 5 10 0 0 0 6 1
+device=none
+T 65600 44900 5 10 1 0 0 6 1
+net=RX:1
+T 65600 44800 5 10 1 1 0 7 1
+value=OUTPUT
+}
