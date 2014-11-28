@@ -44,6 +44,6 @@ for pcbname in `ls ../.. |sed -n -e '/\.pcb/s/\.pcb$//p'`; do
 	
 	cd $pcbname/
 	pcb2gcode
-	cd ../..
+	cd ..
 	
 done
