@@ -32,6 +32,11 @@ Typical TCP/IP and wireless networks are vastly more complex, less reliable, mor
 
 While the MCU alone is unlikely to fail within decades, it should not be relied upon for safety-of-life control systems. Generally, a microcontroller is less dependable than redundant, specialized, discrete logic. Indirect use of NetPLC (eg. monitoring outcomes, contributing information, etc) in such systems must be carefully considered by a competent engineer.
 
+_FutureWork_
+*) SD Card slot should be added to enhance database and logging capacity.
+*) RN171 should be moved to software serial port, completely freeing the hardware UART for external peripherials.
+*) Modbus and DNP3 support have been suggested by George Walker. Related open-source libraries seem to already exist, and may be worth testing.
+
 __Copyright__
 This file is part of NetPLC.
 
